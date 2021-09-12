@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>To-do App</title>
+	<!-- Latest compiled and minified CSS -->
+	<link 	
+		rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"
+	>
+	<!-- Linking CSS -->
+	<link 	
+		rel="stylesheet" 
+		type="text/css" 
+		href="style.css"
+	>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <div class = "titlebox">
+        <div class ="title"> To-Do List </div>
+        <form id = "whatToDo">
+            <label for="action">What do we need to do?</label>
+            <input type="text" id="action" name="action" size="10">
+            <br><br>
+            <button type='button' onClick="addToList()">Submit</button>
+            <button type='button' onClick="clearList()">Clear List</button>
+        </form>
+
+    </div>
+
+    <br><br>
+
+    <div id = "list">
+        <!-- <ol id ="ordered">
+
+        </ol> -->
+    </div>
+
+
+    <script type="text/javascript" src="logic.js"></script>
+</body>

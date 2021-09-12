@@ -1,0 +1,26 @@
+.titlebox {
+    width: 500px;
+    border: 15px solid green;
+    padding: 10px;
+    margin: auto;
+    border-radius: 100px;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+
+}
+
+.title{
+    font-size: 50px;
+}
+
+#submit {
+    color: black;
+}
+
+#list {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
